@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background-color: #081938;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+}

@@ -1,17 +1,22 @@
 import { motion } from "framer-motion";
 import React from "react";
+import arrow from '../src/assets/arrow.svg';
 import git from "../src/assets/github.svg";
 import linkedin from "../src/assets/linkedin.svg";
-
+import { Experience } from "./components/Experience";
+import { Projects } from "./components/Projects";
 function App() {
   return (
     <>
-      <section className="grid grid-cols-2 px-16 font-san text-main w-65% m-auto mt-28">
-        <div>
+      <section className="grid grid-cols-2 px-16 font-san text-main w-65% m-auto mt-28 ">
+        <div className="fixed">
           <h1 className="text-5xl font-bold text-nowrap">Iván Macedonio</h1>
-          <h3 className="text-2xl font-medium py-3 ">
-            Desarrollador Fullstack
+          <h3 className="text-2xl font-light py-3 w-3/4 text-wrap ">
+            Desarrollador Fullstack & Fundador de Bixo
           </h3>
+          <a href="" className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack ">
+            Descargar CV <img src={arrow} alt="" className="w-6" />
+          </a>
           <p className="text-parraph font-normal text-gray-400 w-65%">
             Creo experiencias digitales atractivas, seguras y accesibles.
           </p>
@@ -99,7 +104,7 @@ function App() {
             />
           </div>
         </div>
-        <div className="text-gray-400 text-description font-medium">
+        <div className="text-gray-400 text-description font-medium col-start-2">
           <p className="pb-4">
             En 2020 Decidí introducirme al mundo del{" "}
             <strong className="text-white font-semibold ">
@@ -118,18 +123,28 @@ function App() {
             <strong className="text-white font-semibold">autodidacta </strong>
             las bases del desarrollo{" "}
             <strong className="font-semibold text-white">Backend</strong> para
-            posteriormente aprender <strong className="font-semibold text-white">Frontend</strong>. Pase por varias
-            empresas en las cuales aprendí muchísimo y logré consolidar mi
-            actual stack de tecnologías. Amo el diseño, y combinarlo con la
-            lógica que amerita un sitio web es algo que me <strong className="font-semibold text-white">llena</strong>. Constantemente
-            busco <strong className="font-bold text-white">aprender</strong> nuevas tecnologias, nunca se sabe cuando se las
-            necesita.
+            posteriormente aprender{" "}
+            <strong className="font-semibold text-white">Frontend</strong>. Pase
+            por varias empresas en las cuales aprendí muchísimo y logré
+            consolidar mi actual stack de tecnologías. Amo el diseño, y
+            combinarlo con la lógica que amerita un sitio web es algo que me{" "}
+            <strong className="font-semibold text-white">llena</strong>.
+            Constantemente busco{" "}
+            <strong className="font-bold text-white">aprender</strong> nuevas
+            tecnologias, nunca se sabe cuando se las necesita.
           </p>{" "}
           <p className="pb-4">
             Cuando no estoy frente a la computadora, normalmente estoy escalando
             montañas, leyendo, saliendo con amigos o jugando videojuegos, tengo
-            días muy <strong className="text-semibold text-white">variados</strong>.
+            días muy{" "}
+            <strong className="text-semibold text-white">variados</strong>.
           </p>
+          <div className="mt-24">
+            <Experience></Experience>
+          </div>
+          <div>
+            <Projects />
+          </div>
         </div>
       </section>
     </>

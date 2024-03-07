@@ -2,7 +2,10 @@ import React from "react";
 export const Experience = () => {
   return (
     <div>
-      <article className="flex gap-10 mb-16" id="stack">
+      <article
+        className="xl:flex xl:flex-row gap-10 mb-16 mobiles:flex-col mobiles:gap-6"
+        id="stack"
+      >
         <div>
           <h5 className="text-sm text-nowrap">May 2020 - Actualidad</h5>
         </div>
@@ -17,7 +20,7 @@ export const Experience = () => {
               Bixo
             </a>
           </h2>
-          <p className="text-sm line leading-6">
+          <p className="text-sm line leading-6 max-w-80">
             Desarrollador Freelance, actualmente para mi agencia Bixo. Creación
             e implementación de Apis rest, diseño y puesta en práctica de
             interfaces de usuario, optimización, seguridad, SEO, Hosting,
@@ -61,7 +64,10 @@ export const Experience = () => {
           </aside>
         </div>
       </article>
-      <article className="flex gap-12 mb-16">
+      <article
+        className="xl:flex xl:flex-row gap-10 mb-16 mobiles:flex-col mobiles:gap-6"
+        id="stack"
+      >
         <div>
           <h5 className="text-sm text-nowrap">Ene 2024 - Mar 2024</h5>
         </div>
@@ -69,7 +75,7 @@ export const Experience = () => {
           <h2 className="text-l font-semibold text-white mb-2">
             Desarrollador React Native · PalCare
           </h2>
-          <p className="text-sm line leading-6">
+          <p className="text-sm line leading-6 max-w-80">
             Desarrollador para un proyecto mobile y web donde se debía
             desarrollar una aplicación capaz de vincularse a una serie de
             modelos de pulseras Bluetooth. Me relacioné con varios equipos de
@@ -96,7 +102,10 @@ export const Experience = () => {
           </aside>
         </div>
       </article>
-      <article className="flex gap-12 mb-16">
+      <article
+        className="xl:flex xl:flex-row gap-10 mb-16 mobiles:flex-col mobiles:gap-6"
+        id="stack"
+      >
         <div>
           <h5 className="text-nowrap text-sm">Sep 2023 - Feb 2024</h5>
         </div>
@@ -104,7 +113,7 @@ export const Experience = () => {
           <h2 className="text-l font-semibold text-white mb-2">
             Desarrollador Fullstack · Smart Profit Investments
           </h2>
-          <p className="text-sm line leading-6">
+          <p className="text-sm line leading-6 max-w-80">
             Desarrollador Fullstack en relación de dependencia para una Empresa
             Costarricense. Encargado de diseñar y desarrollar los sitios para
             cada una de las ramificaciones de la empresa. Responsable de
@@ -155,7 +164,10 @@ export const Experience = () => {
           </aside>
         </div>
       </article>
-      <article className="flex gap-12 mb-16">
+      <article
+        className="xl:flex xl:flex-row gap-10 mb-16 mobiles:flex-col mobiles:gap-6"
+        id="stack"
+      >
         <div>
           <h5 className="text-nowrap text-sm">Ene 2022 - May 2023</h5>
         </div>
@@ -163,7 +175,7 @@ export const Experience = () => {
           <h2 className="text-l font-semibold text-white mb-2">
             Desarrollador Backend · Pipeline.io
           </h2>
-          <p className="text-sm line leading-6">
+          <p className="text-sm line leading-6 max-w-80">
             Desarrollador backend para una consultora Europea como Freelancer.
             Desarrollo de Api rest, pruebas unitarias, Documentación y
             despliegue a producción.

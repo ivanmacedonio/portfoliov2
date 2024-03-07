@@ -23,6 +23,9 @@ export default {
       },
       borderWidth: {
         'cv': '1.9px'
+      },
+      screens: {
+        'mobiles': '1px'
       }
     },
   },

@@ -8,7 +8,7 @@ import web4 from "../assets/web4.webp";
 export const Projects = () => {
   return (
     <section className="mb-24" id="projects">
-      <article className="mt-24 flex gap-12">
+      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -33,7 +33,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className=" mt-12 flex gap-12">
+      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className=" mt-12 flex gap-12">
+      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -81,7 +81,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className=" mt-12 flex gap-12">
+      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}

@@ -8,30 +8,31 @@ import { Projects } from "./components/Projects";
 function App() {
   return (
     <>
-      <section className="grid grid-cols-2 px-16 font-san text-main w-65% m-auto mt-28 ">
+      <section className="xl:grid grid-cols-2 md:flex md:flex-col px-16 mobiles:px-8 font-san text-main xl:w-80% md:w-full 2xl:w-65% m-auto mt-28 ">
         <motion.div
           initial={{ y: -15, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
-          className="fixed"
+          className="xl:fixed md:block"
         >
-          <motion.h1 className="text-5xl font-bold text-nowrap">
+          <motion.h1 className="xl:text-4xl 2xl:text-5xl mobiles:text-4xl  font-bold text-nowrap">
             Iván Macedonio
           </motion.h1>
-          <motion.h3 className="text-2xl font-light py-3 w-3/4 text-wrap ">
+          <motion.h3 className="2xl:text-2xl xl:text-xl  mobiles:text-xl font-light py-3 w-3/4 text-wrap ">
             Desarrollador Fullstack & Fundador de Bixo
           </motion.h3>
           <motion.p className="text-parraph font-normal text-gray-400 w-65%">
             Creo experiencias digitales atractivas, seguras y accesibles.
           </motion.p>
           <a
-            href="https://drive.google.com/file/d/1IpvHAmLUQC5RVSyI9m0AvF8F9gJiYrsm/view?usp=sharing" target="_blank"
+            href="https://drive.google.com/file/d/1IpvHAmLUQC5RVSyI9m0AvF8F9gJiYrsm/view?usp=sharing"
+            target="_blank"
             className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack"
           >
             Descargar CV <img src={arrow} alt="" className="w-6" />
           </a>
 
-          <div className="mt-16 flex flex-col gap-3 font-semibold text-gray-400 mb-16">
+          <div className="mt-16 flex flex-col gap-3 font-semibold text-gray-400 mb-16 mobiles:mb-12">
             <a
               href="#about"
               className="hover:cursor-pointer hover:text-white transition-colors w-fit flex items-center gap-4"
@@ -96,7 +97,7 @@ function App() {
               Proyectos
             </a>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 mobiles:mb-12">
             <a href="https://github.com/ivanmacedonio" target="_blank">
               {" "}
               <motion.img

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import arrow from '../src/assets/arrow.svg';
+import arrow from "../src/assets/arrow.svg";
 import git from "../src/assets/github.svg";
 import linkedin from "../src/assets/linkedin.svg";
 import { Experience } from "./components/Experience";
@@ -9,20 +9,31 @@ function App() {
   return (
     <>
       <section className="grid grid-cols-2 px-16 font-san text-main w-65% m-auto mt-28 ">
-        <div className="fixed">
-          <h1 className="text-5xl font-bold text-nowrap">Iván Macedonio</h1>
-          <h3 className="text-2xl font-light py-3 w-3/4 text-wrap ">
+        <motion.div
+          initial={{ y: -15, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.7 }}
+          className="fixed"
+        >
+          <motion.h1 className="text-5xl font-bold text-nowrap">
+            Iván Macedonio
+          </motion.h1>
+          <motion.h3 className="text-2xl font-light py-3 w-3/4 text-wrap ">
             Desarrollador Fullstack & Fundador de Bixo
-          </h3>
-          <a href="" className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack ">
+          </motion.h3>
+          <motion.p className="text-parraph font-normal text-gray-400 w-65%">
+            Creo experiencias digitales atractivas, seguras y accesibles.
+          </motion.p>
+          <a
+            href="https://drive.google.com/file/d/1IpvHAmLUQC5RVSyI9m0AvF8F9gJiYrsm/view?usp=sharing" target="_blank"
+            className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack"
+          >
             Descargar CV <img src={arrow} alt="" className="w-6" />
           </a>
-          <p className="text-parraph font-normal text-gray-400 w-65%">
-            Creo experiencias digitales atractivas, seguras y accesibles.
-          </p>
+
           <div className="mt-16 flex flex-col gap-3 font-semibold text-gray-400 mb-16">
             <a
-              href="#"
+              href="#about"
               className="hover:cursor-pointer hover:text-white transition-colors w-fit flex items-center gap-4"
               onMouseEnter={() => {
                 document.getElementById("hr-element").classList.remove("w-8");
@@ -43,7 +54,7 @@ function App() {
               Sobre mí
             </a>
             <a
-              href="#"
+              href="#stack"
               className="hover:cursor-pointer hover:text-white transition-colors w-fit flex items-center gap-4"
               onMouseEnter={() => {
                 document.getElementById("hr-element2").classList.remove("w-8");
@@ -64,7 +75,7 @@ function App() {
               Stack & Experiencia
             </a>
             <a
-              href="#"
+              href="#projects"
               className="hover:cursor-pointer hover:text-white transition-colors w-fit flex items-center gap-4"
               onMouseEnter={() => {
                 document.getElementById("hr-element3").classList.remove("w-8");
@@ -86,25 +97,38 @@ function App() {
             </a>
           </div>
           <div className="flex gap-4">
-            <motion.img
-              initial={{ y: 0 }}
-              whileHover={{ y: -7 }}
-              transition={{ duration: 0.2 }}
-              src={git}
-              alt=""
-              className="w-image hover:cursor-pointer"
-            />
-            <motion.img
-              initial={{ y: 0 }}
-              whileHover={{ y: -7 }}
-              transition={{ duration: 0.2 }}
-              src={linkedin}
-              alt=""
-              className="w-image hover:cursor-pointer"
-            />
+            <a href="https://github.com/ivanmacedonio" target="_blank">
+              {" "}
+              <motion.img
+                initial={{ y: 0 }}
+                whileHover={{ y: -7 }}
+                transition={{ duration: 0.2 }}
+                src={git}
+                alt=""
+                className="w-image hover:cursor-pointer"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/iv%C3%A1n-macedonio-544056245/"
+              target="_blank"
+            >
+              {" "}
+              <motion.img
+                initial={{ y: 0 }}
+                whileHover={{ y: -7 }}
+                transition={{ duration: 0.2 }}
+                src={linkedin}
+                alt=""
+                className="w-image hover:cursor-pointer"
+              />
+            </a>
           </div>
-        </div>
-        <div className="text-gray-400 text-description font-medium col-start-2">
+        </motion.div>
+        <div
+          className="text-gray-400 text-description font-medium col-start-2"
+          id="about"
+        >
           <p className="pb-4">
             En 2020 Decidí introducirme al mundo del{" "}
             <strong className="text-white font-semibold ">

@@ -2,23 +2,33 @@ import React from "react";
 export const Experience = () => {
   return (
     <div>
-      <article className="flex gap-10 mb-16">
+      <article className="flex gap-10 mb-16" id="stack">
         <div>
           <h5 className="text-sm text-nowrap">May 2020 - Actualidad</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">
-            Desarrollador Freelance · <a href="https://www.bixo.pro" target="_blank" className="underline text-stack font-semibold">Bixo</a>
+            Desarrollador Freelance ·{" "}
+            <a
+              href="https://www.bixo.pro"
+              target="_blank"
+              className="underline text-stack font-semibold"
+            >
+              Bixo
+            </a>
           </h2>
           <p className="text-sm line leading-6">
-            Desarrollador Freelance, actualmente para mi agencia Bixo. Creacion
-            e implementacion de Apis rest, diseño y puesta en practica de
-            interfaces de usuario, optimizacion, seguridad, SEO, Hosting,
+            Desarrollador Freelance, actualmente para mi agencia Bixo. Creación
+            e implementación de Apis rest, diseño y puesta en práctica de
+            interfaces de usuario, optimización, seguridad, SEO, Hosting,
             Responsive.
           </p>
           <aside className="flex gap-2 mt-4 flex-wrap">
             <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
               React
+            </h4>
+            <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
+              Redux
             </h4>
             <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
               HTML5
@@ -110,6 +120,9 @@ export const Experience = () => {
               React
             </h4>
             <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
+              Redux
+            </h4>
+            <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
               Typescript
             </h4>
             <h4 className="text-sm bg-stackback text-stack p-2 rounded-xl">
@@ -144,7 +157,7 @@ export const Experience = () => {
       </article>
       <article className="flex gap-12 mb-16">
         <div>
-          <h5 className="text-nowrap text-sm">Ene 2021 - Feb 2023</h5>
+          <h5 className="text-nowrap text-sm">Ene 2022 - May 2023</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">

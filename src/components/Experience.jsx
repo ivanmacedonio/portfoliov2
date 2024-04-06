@@ -7,7 +7,7 @@ export const Experience = () => {
         id="stack"
       >
         <div>
-          <h5 className="text-sm text-nowrap">May 2020 - Actualidad</h5>
+          <h5 className="text-sm text-nowrap">Ene 2022 - Actualidad</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">
@@ -69,7 +69,7 @@ export const Experience = () => {
         id="stack"
       >
         <div>
-          <h5 className="text-sm text-nowrap">Ene 2024 - Mar 2024</h5>
+          <h5 className="text-sm text-nowrap">Nov 2023 - Mar 2024</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">
@@ -107,7 +107,7 @@ export const Experience = () => {
         id="stack"
       >
         <div>
-          <h5 className="text-nowrap text-sm">Sep 2023 - Feb 2024</h5>
+          <h5 className="text-nowrap text-sm">Sep 2023 - Ene 2024</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">
@@ -169,7 +169,7 @@ export const Experience = () => {
         id="stack"
       >
         <div>
-          <h5 className="text-nowrap text-sm">Ene 2022 - May 2023</h5>
+          <h5 className="text-nowrap text-sm">Mar 2022 - May 2023</h5>
         </div>
         <div className="">
           <h2 className="text-l font-semibold text-white mb-2">

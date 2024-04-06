@@ -7,8 +7,9 @@ import web3 from "../assets/web3.webp";
 import web4 from "../assets/web4.webp";
 export const Projects = () => {
   return (
-    <section className="mb-24" id="projects">
-      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
+    <section className="mb-24 mt-24" id="projects">
+      <h3 className="text-xl">Algunos proyectos <strong className="font-bold text-purple-300">Freelance</strong></h3>
+      <article className="xl:mt-8 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -33,7 +34,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
+      <article className="xl:mt-12 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -57,7 +58,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
+      <article className="xl:mt-12 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -81,7 +82,7 @@ export const Projects = () => {
           </p>
         </div>
       </article>
-      <article className="xl:mt-24 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
+      <article className="xl:mt-12 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
         <div>
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -100,7 +101,7 @@ export const Projects = () => {
             Bixo <img src={arrow} className="max-w-5" />
           </a>
           <p className="mt-2 text-wrap text-sm line leading-6">
-            Portfolio para mi agencia de Software desarrollado con HTML,
+            Portfolio para una agencia de Software desarrollado con HTML,
             Tailwind, SaSS y React
           </p>
         </div>

@@ -196,7 +196,7 @@ export const Projects = () => {
         </div>
         <div>
           <a
-            href="https://github.com/ivanmacedonio/api-blog-chat-jwt"
+            href="https://github.com/ivanmacedonio/node-JWT-paginator"
             target="_blank"
             className="flex align-middle text-nowrap text-white font-semibold text-l gap-2 hover:text-stack cursor-pointer transition-colors duration-200"
           >

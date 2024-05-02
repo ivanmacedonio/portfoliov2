@@ -184,6 +184,29 @@ export const Projects = () => {
           </p>
         </div>
       </article>
+      <article className="xl:mt-12 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12">
+        <div>
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.2 }}
+            src={web5}
+            alt=""
+            className="max-w-56 rounded cursor-pointer"
+          />
+        </div>
+        <div>
+          <a
+            href="https://github.com/ivanmacedonio/api-blog-chat-jwt"
+            target="_blank"
+            className="flex align-middle text-nowrap text-white font-semibold text-l gap-2 hover:text-stack cursor-pointer transition-colors duration-200"
+          >
+            JWT CRUD <img src={arrow} className="max-w-5" />
+          </a>
+          <p className="mt-2 text-wrap text-sm line leading-6">
+            API desarrollada en Node con Express, usando el ORM Sequelize, un sistema de Autenticación JWT y Paginación 
+          </p>
+        </div>
+      </article>
     </section>
   );
 };

@@ -7,6 +7,8 @@ export default {
         'back' :'#0F172A',
         'main':  '#E2E8F0',
         'stackback': '#122B39',
+        'stackfront': '#3A3F58',
+        'stackdevops': '#1C2D44',
         'stack': '#39cfc8'
       },
       fontFamily : {

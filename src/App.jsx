@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import React from "react";
 import arrow from "../src/assets/arrow.svg";
 import git from "../src/assets/github.svg";
@@ -19,10 +19,10 @@ function App() {
             Iván Macedonio
           </motion.h1>
           <motion.h3 className="2xl:text-2xl xl:text-xl  mobiles:text-xl font-light py-3 w-3/4 text-wrap ">
-            Desarrollador Fullstack & Fundador de Bixo
+            Desarrollador de Software
           </motion.h3>
           <motion.p className="text-parraph font-normal text-gray-400 w-65%">
-            Creo experiencias digitales atractivas, seguras y accesibles.
+            Creo experiencias digitales escalables, seguras y atractivas.
           </motion.p>
           <a
             href="https://drive.google.com/file/d/1IpvHAmLUQC5RVSyI9m0AvF8F9gJiYrsm/view?usp=sharing"
@@ -39,12 +39,10 @@ function App() {
               onMouseEnter={() => {
                 document.getElementById("hr-element").classList.remove("w-8");
                 document.getElementById("hr-element").classList.add("w-14");
-                console.log("enter");
               }}
               onMouseLeave={() => {
                 document.getElementById("hr-element").classList.remove("w-14");
                 document.getElementById("hr-element").classList.add("w-8");
-                console.log("left");
               }}
             >
               <hr
@@ -60,12 +58,10 @@ function App() {
               onMouseEnter={() => {
                 document.getElementById("hr-element2").classList.remove("w-8");
                 document.getElementById("hr-element2").classList.add("w-14");
-                console.log("enter");
               }}
               onMouseLeave={() => {
                 document.getElementById("hr-element2").classList.remove("w-14");
                 document.getElementById("hr-element2").classList.add("w-8");
-                console.log("left");
               }}
             >
               <hr
@@ -81,12 +77,10 @@ function App() {
               onMouseEnter={() => {
                 document.getElementById("hr-element3").classList.remove("w-8");
                 document.getElementById("hr-element3").classList.add("w-14");
-                console.log("enter");
               }}
               onMouseLeave={() => {
                 document.getElementById("hr-element3").classList.remove("w-14");
                 document.getElementById("hr-element3").classList.add("w-8");
-                console.log("left");
               }}
             >
               <hr
@@ -98,18 +92,6 @@ function App() {
             </a>
           </div>
           <div className="flex gap-4 mobiles:mb-12">
-            <a href="https://github.com/ivanmacedonio" target="_blank">
-              {" "}
-              <motion.img
-                initial={{ y: 0 }}
-                whileHover={{ y: -7 }}
-                transition={{ duration: 0.2 }}
-                src={git}
-                alt=""
-                className="w-image hover:cursor-pointer"
-              />
-            </a>
-
             <a
               href="https://www.linkedin.com/in/iv%C3%A1n-macedonio-544056245/"
               target="_blank"
@@ -130,40 +112,25 @@ function App() {
           className="text-gray-400 text-description font-medium col-start-2"
           id="about"
         >
-          <p className="pb-4">
-            En 2020 Decidí introducirme al mundo del{" "}
-            <strong className="text-white font-semibold ">
-              desarrollo web
-            </strong>
-            . Comencé como freelancer, práctica que vengo manteniendo hasta el
-            día de hoy, lo que me llevo a fundar
-            <strong className="text-white font-semibold">
-              {" "}
-              Bixo: Una agencia de desarrollo web
-            </strong>{" "}
-            para clientes del exterior.
+          <p>
+            Como desarrollador de software full-stack, aplico de forma constante
+            los principios SOLID, los patrones de diseño más relevantes y los
+            lineamientos de la Clean Architecture para construir soluciones
+            escalables, mantenibles y orientadas a largo plazo. Mi enfoque
+            combina tanto el backend como el frontend, asegurando que cada
+            aplicación sea robusta en su lógica interna, eficiente en su
+            rendimiento y cuidada en su presentación visual.{" "}
+
+            <b style={{color: "#cacccb"}}>
+              Trabajo con una mentalidad centrada en la calidad del código, la
+              experiencia del usuario y la colaboración efectiva con equipos
+              multidisciplinarios.
+            </b>
+            {""} Mi objetivo es contribuir activamente al éxito de los proyectos en
+            los que participo, generando valor tanto en lo técnico como en lo
+            estratégico.
           </p>
-          <p className="pb-4">
-            Antes de conseguir mi primer empleo, estudie de forma{" "}
-            <strong className="text-white font-semibold">autodidacta </strong>
-            las bases del desarrollo{" "}
-            <strong className="font-semibold text-white">Backend</strong> para
-            posteriormente aprender{" "}
-            <strong className="font-semibold text-white">Frontend</strong>. Pase
-            por varias empresas en las cuales aprendí muchísimo y logré
-            consolidar mi actual stack de tecnologías. Amo el diseño, y
-            combinarlo con la lógica que amerita un sitio web es algo que me{" "}
-            <strong className="font-semibold text-white">llena</strong>.
-            Constantemente busco{" "}
-            <strong className="font-bold text-white">aprender</strong> nuevas
-            tecnologias, nunca se sabe cuando se las necesita.
-          </p>{" "}
-          <p className="pb-4">
-            Cuando no estoy frente a la computadora, normalmente estoy escalando
-            montañas, leyendo, saliendo con amigos o jugando videojuegos, tengo
-            días muy{" "}
-            <strong className="text-semibold text-white">variados</strong>.
-          </p>
+
           <div className="mt-24">
             <Experience></Experience>
           </div>

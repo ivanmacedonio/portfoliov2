@@ -25,7 +25,7 @@ function App() {
             Creo experiencias digitales escalables, seguras y atractivas.
           </motion.p>
           <a
-            href="https://drive.google.com/file/d/1IpvHAmLUQC5RVSyI9m0AvF8F9gJiYrsm/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aXtBdfvqfMTWtUcJTNAVqaDaqa7q0NiN/view?usp=sharing"
             target="_blank"
             className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack"
           >

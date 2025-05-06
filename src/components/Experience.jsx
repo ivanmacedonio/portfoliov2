@@ -6,7 +6,7 @@ export const Experience = () => {
       title: "Desarrollador Fullstack",
       enterprice: "SportClub",
       description:
-        "Desarrollador Fullstack para el CRM oficial de la cadena de gimnasios, ademas de haber desarrollado varios de sus procesos paralelos al proyecto principal",
+        "Desarrollador Fullstack para el CRM oficial de la cadena de gimnasios, ademas de haber desarrollado varios de sus procesos paralelos al proyecto principal.",
       backend: [
         "Flask",
         "FastAPI",
@@ -17,6 +17,7 @@ export const Experience = () => {
         "PostgreSQL",
         "Firebase",
         "MercadoPago",
+        "Kafka",
         "AFIP SDK"
       ],
       frontend: ["React", "Zustand", "Jest", "MUI"],
@@ -33,11 +34,11 @@ export const Experience = () => {
       ],
     },
     {
-      date: "Ene 2023 - 2024",
+      date: "Ene 2023 - Mar 2024",
       title: "Desarrollador Fullstack",
       enterprice: "Smart Profit Investments",
       description:
-        "Desarrollador fullstack para un proyecto de venta de membresias con retorno anual",
+        "Desarrollador fullstack para un proyecto de venta de membresias con retorno anual.",
       backend: [
         "Django",
         "FastAPI",
@@ -45,7 +46,8 @@ export const Experience = () => {
         "PostgreSQL",
         "DjangoORM",
         "Binance",
-        "Mercadopago"
+        "Mercadopago",
+        "KYC"
       ],
       frontend: ["React", "Zustand", "Jest", "MUI", "Framer"],
       devops: ["Microservicios", "S3", "EC2", "Docker", "Grafana", "Jenkins"],
@@ -74,7 +76,7 @@ export const Experience = () => {
             {title} · {enterprice}
           </h2>
           <p className="text-sm line leading-6 max-w-80">{description}</p>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[440px]">
+          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
             {backend.map((item, index) => {
               return (
                 <h4
@@ -86,24 +88,24 @@ export const Experience = () => {
               );
             })}
           </aside>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[440px]">
+          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
             {frontend.map((item, index) => {
               return (
                 <h4
                   key={index}
-                  className="w-[80px] h-[30px] text-xs bg-[#1A3A47] text-stack p-2 rounded-xl flex items-center justify-center text-center"
+                  className="w-[80px] h-[30px] text-xs bg-stackback text-stack p-2 rounded-xl flex items-center justify-center text-center"
                 >
                   {item}
                 </h4>
               );
             })}
           </aside>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[440px]">
+          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
             {devops.map((item, index) => {
               return (
                 <h4
                   key={index}
-                  className="w-[80px] h-[30px] text-xs bg-[#0F2230] text-stack p-2 rounded-xl flex items-center justify-center text-center"
+                  className="w-[80px] h-[30px] text-xs bg-stackback text-stack p-2 rounded-xl flex items-center justify-center text-center"
                 >
                   {item}
                 </h4>

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import arrow from "../assets/arrow2.svg";
 import web7 from "../assets/back4.png";
-import web from "../assets/web.webp";
+import web from "../assets/web11.png";
 import web4 from "../assets/web4.webp";
 
 const ProjectCard = ({title, description, url, image, key}) => {

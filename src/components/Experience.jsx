@@ -17,18 +17,19 @@ export const Experience = () => {
         "Pymongo",
         "MongoDB",
         "PostgreSQL",
-        "Firebase",
         "MercadoPago",
-        "Kafka",
         "AFIP SDK"
       ],
-      frontend: ["React", "Zustand", "Jest", "MUI"],
+      frontend: ["React", "Zustand", "Jest", "RTL", "MUI"],
       devops: [
         "Microservicios",
         "Arq. Hexagonal",
         "S3",
         "EC2",
         "RDS",
+        "Firebase",
+        "Kafka",
+        "Redis",
         "Docker",
         "Compose",
         "Grafana",
@@ -98,7 +99,7 @@ export const Experience = () => {
               return (
                 <h4
                   key={index}
-                  className="w-[80px] h-[30px] text-xs bg-stackback text-stack p-2 rounded-xl flex items-center justify-center text-center"
+                  className="w-[80px] h-[30px] text-xs bg-[#2E2B12] text-[#F5E663] p-2 rounded-xl flex items-center justify-center text-center"
                 >
                   {item}
                 </h4>
@@ -110,7 +111,7 @@ export const Experience = () => {
               return (
                 <h4
                   key={index}
-                  className="w-[80px] h-[30px] text-xs bg-stackback text-stack p-2 rounded-xl flex items-center justify-center text-center"
+                  className="w-[80px] h-[30px] text-xs bg-[#2F1E12] text-[#FFBC8A] p-2 rounded-xl flex items-center justify-center text-center"
                 >
                   {item}
                 </h4>

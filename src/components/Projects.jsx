@@ -46,10 +46,10 @@ const projectsList = [
     image: web7,
   },
   {
-    title: "Francisco Pedroza",
+    title: "RockPay",
     description:
-      "Landing page desarrollada con React y Framer Motion para un Editor de videos Freelancer.",
-    url: "https://franciscopedroza.netlify.app/",
+      "Landing page desarrollada con React y Framer Motion para una App de pasarela de pago.",
+    url: "https://rockpay.eu/",
     image: web,
   },
   {

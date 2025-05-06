@@ -82,7 +82,7 @@ export const Experience = () => {
             {title} · {enterprice}
           </h2>
           <p className="text-sm line leading-6 max-w-80">{description}</p>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
+          <aside className="flex flex-wrap gap-2 mt-4 xl:w-[400px] sm:w-[80vw]">
             {backend.map((item, index) => {
               return (
                 <h4
@@ -94,7 +94,7 @@ export const Experience = () => {
               );
             })}
           </aside>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
+          <aside className="flex flex-wrap gap-2 mt-4 xl:w-[400px] sm:w-[80vw]">
             {frontend.map((item, index) => {
               return (
                 <h4
@@ -106,7 +106,7 @@ export const Experience = () => {
               );
             })}
           </aside>
-          <aside className="flex flex-wrap gap-2 mt-4 w-[400px]">
+          <aside className="flex flex-wrap gap-2 mt-4 xl:w-[400px] sm:w-[80vw]">
             {devops.map((item, index) => {
               return (
                 <h4

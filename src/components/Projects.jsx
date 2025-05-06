@@ -68,7 +68,7 @@ const projectsList = [
 export const Projects = () => {
   return (
     <section className="mb-24 mt-24" id="projects">
-      <h3 className="text-xl">
+      <h3 className="text-xl pb-12">
        Algunos de mis{" "}
         <strong className="font-bold text-purple-300">proyectos</strong>
       </h3>

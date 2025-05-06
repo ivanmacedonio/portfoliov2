@@ -5,6 +5,7 @@ import web7 from "../assets/back4.png";
 import web from "../assets/web11.png";
 import web4 from "../assets/web4.webp";
 
+
 const ProjectCard = ({title, description, url, image, key}) => {
   return (
     <motion.article
@@ -21,6 +22,9 @@ const ProjectCard = ({title, description, url, image, key}) => {
           src={image}
           alt=""
           className="max-w-56 rounded cursor-pointer"
+          onClick={() => {
+            window.open(url, '_blank')
+          }}
         />
       </div>
       <div>

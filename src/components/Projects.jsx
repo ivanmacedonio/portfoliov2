@@ -7,9 +7,12 @@ import web4 from "../assets/web4.webp";
 
 const ProjectCard = ({title, description, url, image, key}) => {
   return (
-    <article
+    <motion.article
       className="xl:mt-8 flex xl:gap-12 mobiles:flex-col xl:flex xl:flex-row mobiles:gap-8 mobiles:mb-12"
       key={key}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <div>
         <motion.img
@@ -30,7 +33,7 @@ const ProjectCard = ({title, description, url, image, key}) => {
         </a>
         <p className="mt-2 text-wrap text-sm line leading-6">{description}</p>
       </div>
-    </article>
+    </motion.article>
   );
 };
 

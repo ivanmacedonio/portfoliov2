@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 export const Experience = () => {
   const experienceList = [
     {
@@ -64,9 +66,12 @@ export const Experience = () => {
     devops,
   }) => {
     return (
-      <article
+      <motion.article
         className="xl:flex xl:flex-row gap-10 mb-16 mobiles:flex-col mobiles:gap-6"
         id="stack"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div>
           <h5 className="text-sm text-nowrap">{date}</h5>
@@ -113,7 +118,7 @@ export const Experience = () => {
             })}
           </aside>
         </div>
-      </article>
+      </motion.article>
     );
   };
   return (

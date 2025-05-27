@@ -46,7 +46,7 @@ const projectsList = [
     title: "Proceso de facturación concurrente",
     description:
       "Proceso de facturación desarrollado con Flask aplicando programación concurrente, arquitectura hexagonal y third-party AFIPWS",
-    url: "https://github.com",
+    url: "https://github.com/ivanmacedonio/invoice_process",
     image: web7,
   },
   {

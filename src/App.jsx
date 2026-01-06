@@ -18,18 +18,17 @@ function App() {
           <motion.h1 className="xl:text-4xl 2xl:text-5xl mobiles:text-4xl  font-bold text-nowrap">
             Iván Macedonio
           </motion.h1>
-          <motion.h3 className="2xl:text-2xl xl:text-xl  mobiles:text-xl font-light py-3 w-3/4 text-wrap ">
-            Desarrollador de Software
+          <motion.h3 className="2xl:text-2xl xl:text-xl  mobiles:text-xl font-light py-3 w-3/4 text-wrap w-1/2 ">
+          Java engineer focused on scalable APIS  & legacy code refactors
           </motion.h3>
           <motion.p className="text-parraph font-normal text-gray-400 w-65%">
-            Creo experiencias digitales escalables, seguras y atractivas.
-          </motion.p>
+          I help companies scale and modernize backend systems while reducing technical risk and operational cost.          </motion.p>
           <a
-            href="https://drive.google.com/file/d/14QFfgfWRC0Srj93iPIjXOGtrQRtrNRjh/view?usp=sharing"
+            href="https://www.upwork.com/hire/?utm_campaign=SEMBrand_Google_INTL_Marketplace_Core&utm_medium=PaidSearch&utm_content=150606034558&utm_term=upwork&campaignid=20227594544&matchtype=e&device=c&utm_source=google&cq_src=google_ads&cq_cmp=20227594544&cq_plac&cq_net=g&ad_id=660518288337&gad_source=1&gad_campaignid=20227594544&gclid=Cj0KCQiAgvPKBhCxARIsAOlK_EqiaL9q0i2F_1-TB5ZnhTg2DONTLi6shFGkdSMufwdxjCXPQq-ZbLsaApjPEALw_wcB"
             target="_blank"
             className="flex align-middle gap- font-bold my-4 border-solid border-cv border-stack w-fit px-4 py-1 rounded text-stack"
           >
-            Descargar CV <img src={arrow} alt="" className="w-6" />
+            Contact me <img src={arrow} alt="" className="w-6" />
           </a>
 
           <div className="mt-16 flex flex-col gap-3 font-semibold text-gray-400 mb-16 mobiles:mb-12">
@@ -50,7 +49,7 @@ function App() {
                 style={{ transition: "width 0.3s" }}
                 className="w-8"
               />{" "}
-              Sobre mí
+              About me
             </a>
             <a
               href="#stack"
@@ -69,7 +68,7 @@ function App() {
                 style={{ transition: "width 0.3s" }}
                 className="w-8"
               />{" "}
-              Stack & Experiencia
+              Experience
             </a>
             <a
               href="#projects"
@@ -88,7 +87,7 @@ function App() {
                 style={{ transition: "width 0.3s" }}
                 className="w-8"
               />{" "}
-              Proyectos
+              Projects
             </a>
           </div>
           <div className="flex gap-4 mobiles:mb-12">
@@ -109,35 +108,34 @@ function App() {
           </div>
         </motion.div>
         <div
-          className="text-gray-400 text-description font-medium col-start-2"
-          id="about"
-        >
-          <p>
-            Como desarrollador de software full-stack, aplico de forma constante
-            los principios SOLID, los patrones de diseño más relevantes y los
-            lineamientos de la Clean Architecture para construir soluciones
-            escalables, mantenibles y orientadas a largo plazo. Mi enfoque
-            combina tanto el backend como el frontend, asegurando que cada
-            aplicación sea robusta en su lógica interna, eficiente en su
-            rendimiento y cuidada en su presentación visual.{" "}
+  className="text-gray-400 text-description font-medium col-start-2"
+  id="about"
+>
+  <p className="mb-4">
+    Senior Java Backend Engineer with strong experience building, refactoring,
+    and scaling reliable systems.
+  </p>
 
-            <b style={{color: "#cacccb"}}>
-              Trabajo con una mentalidad centrada en la calidad del código, la
-              experiencia del usuario y la colaboración efectiva con equipos
-              multidisciplinarios.
-            </b>
-            {""} Mi objetivo es contribuir activamente al éxito de los proyectos en
-            los que participo, generando valor tanto en lo técnico como en lo
-            estratégico.
-          </p>
+  <p className="mb-4 font-semibold text-[#cacccb]">
+    I help companies modernize backend applications so they can grow safely,
+    perform better, and remain easy to maintain over time.
+  </p>
 
-          <div className="mt-24">
-            <Experience></Experience>
-          </div>
-          <div>
-            <Projects />
-          </div>
-        </div>
+  <p>
+    I focus on delivering stable, production-ready solutions and working closely
+    with teams to turn complex requirements into systems that work reliably in
+    real-world environments.
+  </p>
+
+  <div className="mt-24">
+    <Experience />
+  </div>
+
+  <div>
+    <Projects />
+  </div>
+</div>
+
       </section>
     </>
   );

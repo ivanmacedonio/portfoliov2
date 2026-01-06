@@ -4,57 +4,40 @@ import { motion } from "framer-motion";
 export const Experience = () => {
   const experienceList = [
     {
-      date: "Mar 2024 - Actualidad",
-      title: "Desarrollador Fullstack",
-      enterprice: "SportClub",
-      description:
-        "Desarrollador Fullstack para el CRM oficial de la cadena de gimnasios, ademas de haber desarrollado varios de sus procesos paralelos al proyecto principal.",
+      date: "Jan 2023 - Mar 2024",
+      title: "Backend Engineer",
+      enterprice: "MercadoLibre",
+      description: "Designed and operated high-availability backend services in a high-traffic production environment. Led legacy system modernization, improving reliability, scalability, and long-term maintainability. These changes reduced operational risk, stabilized performance under load, and lowered the cost of evolving critical business systems.",
       backend: [
-        "Flask",
-        "FastAPI",
-        "Pytest",
-        "SQLAlchemy",
-        "Pymongo",
-        "MongoDB",
-        "PostgreSQL",
-        "MercadoPago",
-        "AFIP SDK"
+
       ],
-      frontend: ["React", "Zustand", "Jest", "RTL", "MUI"],
-      devops: [
-        "Microservicios",
-        "Arq. Hexagonal",
-        "S3",
-        "EC2",
-        "RDS",
-        "Firebase",
-        "Kafka",
-        "Redis",
-        "Docker",
-        "Compose",
-        "Grafana",
-        "Jenkins",
-      ],
+      frontend: [],
+      devops: [],
     },
     {
-      date: "Ene 2023 - Mar 2024",
-      title: "Desarrollador Fullstack",
+      date: "Mar 2024 - Aug 2025",
+      title: "Backend Engineer",
+      enterprice: "SportClub",
+      description:
+        "Built and modernized a BackOffice and CRM platform for a multi-location gym chain. Defined system architecture and core data models, and integrated payment and regulatory services. The platform improved operational efficiency, reduced manual processes, and provided a stable, scalable foundation for business growth.",
+      backend: [
+        
+      ],
+      frontend: [],
+      devops: [],
+    },
+    {
+      date: "Jan 2023 - Mar 2024",
+      title: "Backend Engineer",
       enterprice: "Smart Profit Investments",
       description:
-        "Desarrollador fullstack para un proyecto de venta de membresias con retorno anual.",
+        "Developed and optimized backend services for a financial analytics platform supporting sales and annual return tracking. Improved system performance and reliability under high concurrency, nearly doubling responsiveness while reducing operational risk through strong testing and performance optimization practices.",
       backend: [
-        "Django",
-        "FastAPI",
-        "Pytest",
-        "PostgreSQL",
-        "DjangoORM",
-        "Binance",
-        "Mercadopago",
-        "KYC"
+     
       ],
-      frontend: ["React", "Zustand", "Jest", "MUI", "Framer"],
-      devops: ["Microservicios", "S3", "EC2", "Docker", "Grafana", "Jenkins"],
-    },
+      frontend: [],
+      devops: [],
+    }
   ];
 
   const ExperienceCard = ({

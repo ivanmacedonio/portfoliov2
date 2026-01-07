@@ -32,7 +32,7 @@ const ProjectCard = ({title, description, url, image, key, haveUrl = false}) => 
 
 const projectsList = [
   {
-    title: "Automated Billing & Invoicing Microservice",
+    title: "Billing & Invoicing Microservice",
     description:
     "Designed an automated billing and invoicing microservice for financial transactions with strict reliability and compliance requirements. The system reduced operational risk, ensured idempotent execution, and provided full observability for long-term, low-maintenance operation..",
       url: "",
@@ -40,7 +40,7 @@ const projectsList = [
       haveUrl: false,
   },
   {
-    title: "Scalable Image Processing REST API",
+    title: "Image Processing REST API",
     description:
       "Designed and built a high-performance image processing API supporting secure uploads, asynchronous transformations, and CDN-optimized delivery. Achieved low-latency responses, high cache efficiency, and stable performance during traffic spikes, improving user experience while reducing backend load.",
     url: "https://github.com/yourusername/image-processing-api",
@@ -48,7 +48,7 @@ const projectsList = [
     haveUrl: false,
   },
   {
-    title: "Custom Concurrent Task Scheduling Engine",
+    title: "Task Scheduling Engine",
     description:
       "Designed a custom background task scheduling engine to handle complex dependencies, concurrency, and reliability constraints. The system executes tasks safely under concurrent workloads, supports retries and fault isolation, and delivers consistent low-latency performance in production.",
     url: "https://github.com/yourusername/concurrent-scheduler",

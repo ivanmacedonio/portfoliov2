@@ -34,7 +34,7 @@ const projectsList = [
   {
     title: "Automated Billing & Invoicing Microservice",
     description:
-    "Built an automated billing and invoicing microservice processing financial transactions with strict reliability and compliance requirements. The system reduced operational risk, ensured idempotent execution, and provided full observability for long-term, low-maintenance operation.",
+    "Designed an automated billing and invoicing microservice for financial transactions with strict reliability and compliance requirements. The system reduced operational risk, ensured idempotent execution, and provided full observability for long-term, low-maintenance operation..",
       url: "",
       image: web,
       haveUrl: false,
@@ -42,7 +42,7 @@ const projectsList = [
   {
     title: "Scalable Image Processing REST API",
     description:
-      "Designed and built a high-performance image processing API handling secure uploads, asynchronous transformations, and CDN-optimized delivery. Achieved low-latency responses, high cache efficiency, and stable performance during traffic spikes, improving user experience and reducing backend load.",
+      "Designed and built a high-performance image processing API supporting secure uploads, asynchronous transformations, and CDN-optimized delivery. Achieved low-latency responses, high cache efficiency, and stable performance during traffic spikes, improving user experience while reducing backend load.",
     url: "https://github.com/yourusername/image-processing-api",
     image: web,
     haveUrl: false,
@@ -58,7 +58,7 @@ const projectsList = [
   {
     title: "Audit Recorder REST API",
     description:
-    "Designed and implemented a centralized audit logging API to record, store, and query critical business events across multiple systems. The solution ensures traceability, compliance, and reliable event capture at scale, while minimizing performance impact on core services.",
+    "Designed and implemented a centralized audit logging API to record and query critical business events across distributed systems. The solution ensures traceability, compliance, and reliable event capture at scale, while minimizing performance impact on core services.",
     url: "https://codeberg.org/imacedonio/audits-rest",
     image: web,
     haveUrl: true,

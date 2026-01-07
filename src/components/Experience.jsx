@@ -19,7 +19,7 @@ export const Experience = () => {
       title: "Backend Engineer",
       enterprice: "SportClub",
       description:
-        "Built and modernized a BackOffice and CRM platform for a multi-location gym chain. Defined system architecture and core data models, and integrated payment and regulatory services. The platform improved operational efficiency, reduced manual processes, and provided a stable, scalable foundation for business growth.",
+        "Built and modernized a BackOffice and CRM platform for a multi-location gym chain. Defined system architecture, core data models, and integrated payment and regulatory services, resulting in improved operational efficiency, fewer manual processes, and a scalable foundation for business growth.",
       backend: [
         
       ],

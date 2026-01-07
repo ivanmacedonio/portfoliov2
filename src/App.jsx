@@ -22,7 +22,7 @@ function App() {
           Java engineer focused on scalable APIS  & legacy code refactors
           </motion.h3>
           <motion.p className="text-parraph font-normal text-gray-400 w-65%">
-          I help companies scale and modernize backend systems while reducing technical risk and operational cost.          </motion.p>
+          I help companies modernize backend applications so they can grow safely, reduce technical risk, and improve performance over time.          </motion.p>
           <a
             href="https://www.upwork.com/hire/?utm_campaign=SEMBrand_Google_INTL_Marketplace_Core&utm_medium=PaidSearch&utm_content=150606034558&utm_term=upwork&campaignid=20227594544&matchtype=e&device=c&utm_source=google&cq_src=google_ads&cq_cmp=20227594544&cq_plac&cq_net=g&ad_id=660518288337&gad_source=1&gad_campaignid=20227594544&gclid=Cj0KCQiAgvPKBhCxARIsAOlK_EqiaL9q0i2F_1-TB5ZnhTg2DONTLi6shFGkdSMufwdxjCXPQq-ZbLsaApjPEALw_wcB"
             target="_blank"

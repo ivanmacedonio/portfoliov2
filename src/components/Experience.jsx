@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const Experience = () => {
   const experienceList = [
     {
-      date: "Jan 2023 - Mar 2024",
+      date: "Aug 2025 - now",
       title: "Backend Engineer",
       enterprice: "MercadoLibre",
       description: "Designed and operated high-availability backend services in a high-traffic production environment. Led legacy system modernization, improving reliability, scalability, and long-term maintainability. These changes reduced operational risk, stabilized performance under load, and lowered the cost of evolving critical business systems.",
